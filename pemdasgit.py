@@ -53,7 +53,7 @@ def print_location_name(data, lokasi_id):
 
 def print_total_harvest(data):
     """Menghitung total hasil panen untuk semua lokasi"""
-    print(" Nomor 4 ")
+    print(" Nomor Empat ")
     total_padi = sum(info['hasil_panen']['padi'] for info in data.values())
     total_kedelai = sum(info['hasil_panen']['kedelai'] for info in data.values())
     print(f"Hasil Panen Total - Padi: {total_padi}, Kedelai: {total_kedelai}\n")
