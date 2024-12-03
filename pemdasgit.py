@@ -23,7 +23,7 @@ data_panen = {
 
 def print_harvest_summary(data):
     """Menampilkan ringkasan hasil panen untuk semua lokasi"""
-    print(" Nomor 1 ")
+    print(" Soal Nomor 1 ")
     for lokasi, info in data.items():
         print(f"Lokasi {info['nama_lokasi']}\nHasil Panen:")
         for komoditas, jumlah in info['hasil_panen'].items():
