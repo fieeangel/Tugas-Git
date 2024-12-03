@@ -44,7 +44,7 @@ def print_specific_location(data, lokasi_id):
 
 def print_location_name(data, lokasi_id):
     """Menampilkan nama lokasi untuk ID tertentu"""
-    print("\n Nomor 3 ")
+    print("\n Ini Soal Nomor 3 ")
     if lokasi_id in data:
         print(f"Nama Lokasi dari {lokasi_id} adalah {data[lokasi_id]['nama_lokasi']}")
     else:
