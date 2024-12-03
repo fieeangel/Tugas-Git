@@ -32,7 +32,7 @@ def print_harvest_summary(data):
 
 def print_specific_location(data, lokasi_id):
     """Menampilkan hasil panen untuk lokasi tertentu"""
-    print(f"\n Soal Nomor 2 ({lokasi_id}) ")
+    print(f"\nIni Soal Nomor 2 ({lokasi_id}) ")
     if lokasi_id in data:
         info = data[lokasi_id]
         print(f"Lokasi {info['nama_lokasi']}\nHasil Panen:")
